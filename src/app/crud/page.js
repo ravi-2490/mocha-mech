@@ -7,8 +7,8 @@ const Card = () => {
   return (
     <div className="h-screen bg-white flex flex-col justify-center items-center">
       <h1 className="text-black text-5xl">I am card</h1>
-      <form>
-        <div className="border-2 border-black bg-slate-400 flex flex-col p-1 rounded-sm">
+      <form className="w-screen">
+        <div className="border-2 border-black bg-slate-400 flex flex-col p-1 rounded-sm w-1/2">
           <label className="text-black text-xl">Name</label>
           <input placeholder="enter name " className="p-1 text-black" />
           <button
